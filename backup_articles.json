@@ -1,0 +1,47 @@
+{
+  "Alex Parker": [
+    {
+      "title": "AI Revolution Continues",
+      "link": "https://example.com/ai-revolution",
+      "summary": "Major developments in artificial intelligence are unfolding across the globe.",
+      "published": "2025-03-20T10:00:00Z",
+      "source": "Backup Source"
+    }
+  ],
+  "Priya Sharma": [
+    {
+      "title": "Global Markets on the Rise",
+      "link": "https://example.com/global-markets",
+      "summary": "Economic indicators point to a surge in global markets.",
+      "published": "2025-03-21T11:00:00Z",
+      "source": "Backup Source"
+    }
+  ],
+  "Marco Rossi": [
+    {
+      "title": "Champions League Highlights",
+      "link": "https://example.com/champions-league",
+      "summary": "A review of the most exciting moments from the latest matches.",
+      "published": "2025-03-21T09:30:00Z",
+      "source": "Backup Source"
+    }
+  ],
+  "Lisa Thompson": [
+    {
+      "title": "Blockbuster Movies of the Year",
+      "link": "https://example.com/blockbusters",
+      "summary": "A look at the movies that defined the year.",
+      "published": "2025-03-20T18:00:00Z",
+      "source": "Backup Source"
+    }
+  ],
+  "David Martinez": [
+    {
+      "title": "NASA's New Frontier in Space Exploration",
+      "link": "https://example.com/nasa-space",
+      "summary": "NASA unveils its latest mission to explore deep space.",
+      "published": "2025-03-19T14:00:00Z",
+      "source": "Backup Source"
+    }
+  ]
+}
