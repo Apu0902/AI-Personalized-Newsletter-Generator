@@ -134,11 +134,11 @@ This project is a Streamlit application that generates personalized newsletters 
 
 - **requirements.txt**  
   Lists all required Python dependencies:
-streamlit feedparser transformers torch sentence-transformers
-
-markdown
-Copy
-Edit
+    streamlit
+    feedparser
+    transformers
+    torch
+    sentence-transformers
 
 - **Dockerfile**  
 Docker configuration file for containerizing the application.
@@ -150,46 +150,33 @@ This documentation file.
 
 1. **Clone the repository:**
 
- ```bash
  git clone <repository_url>
  cd AI-Personalized-Newsletter-Generator
-Install dependencies:
+
+2. **Install dependencies:**
 
 Make sure you have Python 3.9 or later installed, then run:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
-Running the Application
-Locally via Streamlit
-Start the Streamlit app by running:
 
-bash
-Copy
-Edit
-streamlit run app.py
+Running the Application
+
+  Locally via Streamlit
+
+Start the Streamlit app by running:
+  streamlit run app.py
 A web browser will open with the application interface. Use the sidebar to select a user persona and view the personalized newsletter. You can also download the newsletter as a Markdown file.
 
 Via Docker
 Build the Docker image:
-
-bash
-Copy
-Edit
 docker build -t newsletter-app .
 Run the Docker container:
 
-bash
-Copy
-Edit
 docker run -p 8501:8501 newsletter-app
 Open your browser and navigate to http://localhost:8501 to see the app.
 
 Project Structure
-javascript
-Copy
-Edit
+
 AI-Personalized-Newsletter-Generator/
 ├── app.py
 ├── newsletter_utils.py
@@ -197,8 +184,7 @@ AI-Personalized-Newsletter-Generator/
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
-License
-[Include your chosen license here.]
+
 
 Acknowledgements
 Streamlit for the interactive UI.
@@ -207,13 +193,7 @@ Hugging Face Transformers and Sentence-Transformers for the NLP models.
 
 The various news sources whose RSS feeds are used to curate content.
 
-yaml
-Copy
-Edit
 
----
-
-Feel free to adjust any sections as needed. This README file provides a complete overview, installation instructions, and usage guidelines for your project.
 
 
 
