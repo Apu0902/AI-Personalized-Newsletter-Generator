@@ -27,10 +27,8 @@ classifier = pipeline(
     "zero-shot-classification",
     model="joeddav/xlm-roberta-large-xnli",
     framework="pt",
-    device=0,
-    use_fast=False  # Disable the fast tokenizer
+    device=0  # Ensure GPU usage if available.
 )
-
 
 # ------------------------------------------------------------------------------
 # Define user personas along with their dedicated RSS feed URLs and interest preferences.
